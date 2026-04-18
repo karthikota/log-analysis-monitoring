@@ -20,18 +20,7 @@ This project implements a log monitoring and analysis system that processes syst
 - Simulated real-time log streaming and monitoring
 
 ## Project Structure
-log-analysis-monitoring/
-│
-├── logs/
-│ └── sample.log
-│
-├── scripts/
-│ ├── parser.py
-│ ├── analyzer.py
-│ └── log_generator.py
-│
-├── reports/
-│ └── summary.txt
+<img width="299" height="311" alt="image" src="https://github.com/user-attachments/assets/5510b6a1-b0b0-4752-95c6-f591c001a05a" />
 
 
 ## How It Works
