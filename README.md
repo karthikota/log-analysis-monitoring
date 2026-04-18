@@ -43,13 +43,18 @@ This project implements a log monitoring and analysis system that processes syst
 
 ### Step 1: Generate Logs
 
-python scripts/log_generator.py
+'python scripts/log_generator.py'
 
-##Output
+### Step 2: Run Analyzer
+
+'python scripts/analyzer.py'
+
+### Output
 The system produces:
 Console output with error summaries and trends
 A report file at:
-reports/summary.txt
+
+'reports/summary.txt'
 
 The report includes:
 
@@ -57,20 +62,23 @@ Error summary
 Time-based trends
 Most frequent error
 Peak failure window
-Design Considerations
+
+### Design Considerations
 Modular separation of parsing, analysis, and generation
 Efficient aggregation using dictionaries and counters
 Handling of unknown log patterns through dynamic categorization
 Continuous monitoring using timed execution loops
-Limitations
+
+### Limitations
 File-based processing (not streaming architecture)
 No distributed or large-scale log handling
 Limited error classification rules
-Future Improvements
+
+### Future Improvements
 Integration with cloud logging systems (e.g., AWS CloudWatch)
 Real-time streaming using Kafka or similar tools
 Advanced pattern detection using machine learning
 Dashboard-based visualization
 
-Author
+### Author
 K. Sriram Karthikeya
