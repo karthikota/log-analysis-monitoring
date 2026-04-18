@@ -39,7 +39,7 @@ This project implements a log monitoring and analysis system that processes syst
 - File-based log processing
 - Git for version control
 
-## Execution
+### Execution
 
 ### Step 1: Generate Logs
 
