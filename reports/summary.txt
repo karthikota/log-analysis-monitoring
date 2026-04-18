@@ -1,0 +1,20 @@
+LOG ANALYSIS REPORT
+========================================
+
+Error Summary:
+- Database Error: 117
+- Timeout Error: 117
+- Payment Error: 123
+- High memory Error: 63
+- User login Error: 60
+
+Error Trend by Hour:
+- 10:00 -> 6 errors
+- 13:00 -> 78 errors
+- 14:00 -> 305 errors
+- 15:00 -> 63 errors
+- 17:00 -> 28 errors
+
+Critical Insights:
+- Most Frequent Error: Payment Error
+- Peak Failure Window: 14:00–15:00
